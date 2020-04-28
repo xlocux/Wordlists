@@ -1,0 +1,1 @@
+cat domains | sed 's/[.]/\n/g' | sort -u | tee  wordlist.txt
